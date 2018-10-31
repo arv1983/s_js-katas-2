@@ -73,3 +73,7 @@ The number in brackets is the 8th fibonacci number.
     *   writing a _for_ loop to consistently modify the result
     *   returning the result
 2.  If you struggle for more than 5 minutes, **ask for help!** This is an exercise in critical thinking, not torture.
+
+## Submission ##
+
+Push your code into your GitLab repository and use the GitLab Pages feature to allow your site to be viewed directly. Please submit the published gitlab pages url below.
