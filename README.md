@@ -1,79 +1,80 @@
 # Assessment: JavaScript Katas 2 #
 
-## Overview ##
+# Overview 
 
-A [kata](https://en.wikipedia.org/wiki/Kata_(programming)) is an individual exercise where you practice a programming skill through repetition. Today you will practice using JavaScript loops and functions. The functions start out trivial and ramp up in difficulty. The main goals of these katas are:
-*   get you used to writing and calling functions that take arguments and return results
-*   get you used to breaking down a problem into the various parts of a for loop
+A [kata](https://en.wikipedia.org/wiki/Kata_(programming)) is an individual exercise where you practice a programming skill through repetition. Today you will practice using JavaScript loops and functions. The functions start out trivial and ramp up in difficulty. The main goals of these katas are:
 
-You will create a single web page for all these exercises, and use `console.log()` for all output. Unlike other katas we've done up until now, most of these build on each other, which means that **you'll have to complete them in order**.
+     * get you used to writing and calling functions that take arguments and return results
+     * get you used to breaking down a problem into the various parts of a for loop
 
-When giving constraints for the implementation, note that anything I say about functions also applies to methods (we'll talk about the difference some day). 
+You will use the [return](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/return) keyword for the output of your function. Unlike other katas we've done up until now, most of these build on each other, which means that **you'll need to complete them in order.**
 
-### Add (1 point) ###
+When giving constraints for the implementation, note that anything I say about functions also applies to methods (we'll talk about the difference soon).
 
-Write an _`add`_ function that takes two arguments and returns their sum.
+# Add (1 point)
 
-You may use built-in operators to finish the definition.
+Write a function named "add" that takes two arguments and returns their sum.
 
-Display the result of calling _`add(2, 4)`_, which should be 6.
+You may use built-in operators to finish the definition.
 
-### Multiply (2 points) ###
+For example, calling *add*(2, 4) should return a result of 6.
 
-Write a _`multiply`_ function that takes two arguments and returns their product.
 
-You **may not** use built-in arithmetic operators or functions. Instead, you'll need a for loop which calls the "add" function you wrote earlier.
+# Multiply (2 points)
 
-Display the result of calling _`multiply(6, 8)`_, which should be 48.
+Write a function named "multiply" that takes two arguments and returns their product.
 
-### Power (2 points) ###
+You **may not** use built-in arithmetic operators or functions (like the `*` built-in operator for multiplication). Instead, you'll need a for loop which calls the "add" function you wrote earlier.
 
-Write a _`power`_ function that takes two arguments (`x` and `n`) and returns the the result of raising x to the nth power.
+For example, calling *multiply*(6, 8) should return a result of 48.
 
-You **may not** use built-in arithmetic operators or functions. Instead, use the previous functions you wrote to write this function.
 
-Display the result of calling _`power(2, 8)`_, which should be 256.
+# Power (2 points)
 
-**Hint**: _Another word for this is "exponentiation". In the above example, we arrive at 256 by multiplying 2 by itself 8 times:_
+Write a function named "power" that takes two arguments (x and n) and returns the the result of raising x to the nth power.
 
-_2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 = 256_
+You **may not** use built-in arithmetic operators or functions. Instead, use functions you wrote in earlier katas to write this function (like the `*` built-in operator for multiplication, or the `**` operator for power/exponentiation).
 
-If we had called _`power(3, 4)`_, we'd want to multiply 3 by itself 4 times:
+Another word for this is "exponentiation". For example, if we called *power*(2, 8), we return 256 by multiplying 2 by itself 8 times:
 
-_3 * 3 * 3 * 3 = 81_
+    2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 = 256
 
-See [this Wikipedia article](https://simple.wikipedia.org/wiki/Exponentiation) for more details on exponentiation.
+If we had called *power*(3, 4), we'd want to multiply 3 by itself 4 times:
 
-### Factorial (2 points) ###
+    3 * 3 * 3 * 3 = 81
 
-Write a _`factorial`_ function that takes a single argument and returns the factorial of that argument.
+See [this](https://simple.wikipedia.org/wiki/Exponentiation) Wikipedia article for more details on exponentiation.
 
-You **may not** use built-in arithmetic operators or functions. Instead, use the previous functions you wrote to write this function.
+# Factorial
 
-Display the result of calling _`factorial(4)`_, which should be 24:
+Write a function named "factorial" that takes a single argument and returns the factorial of that argument .
 
-_4 * 3 * 2 * 1 = 24_
+You **may not** use built-in arithmetic operators or functions. Instead, use functions you wrote in earlier katas to write this function (like the `*` built-in operator for multiplication).
 
-### Fibonacci (3 points) ###
+For example, calling *factorial*(4) should return a result of 24.
 
-Write a _`fibonacci`_ function that takes an argument `n` and returns the nth, [Fibonacci number](https://simple.wikipedia.org/wiki/Fibonacci_number).
+# Fibonacci (3 points)
 
-You **may not** use built-in arithmetic operators or functions. Instead, use the previous functions you wrote to write this function.
+Write a function named "fibonacci" that takes an argument n and returns the nth [Fibonacci number](https://simple.wikipedia.org/wiki/Fibonacci_number). 
 
-Display the result of calling _`fibonacci(8)`_, which should be 13:
+You **may not** use built-in arithmetic operators or functions. Instead, use functions you wrote in earlier katas to write this function (like the `*` built-in operator for multiplication).
 
-_0 1 1 2 3 5 8 [13] 21_
+For example, calling *fibonacci*(8) should return a result of 13.
+
+0  1  1  2  3  5  8  [13]  21
 
 The number in brackets is the 8th fibonacci number.
 
-## Hints ##
+# Hints
 
-1.  The answer to most of these will look similar. They will typically involve:
-    *   declaring a variable to keep track of a final result
-    *   writing a _for_ loop to consistently modify the result
-    *   returning the result
-2.  If you struggle for more than 5 minutes, **ask for help!** This is an exercise in critical thinking, not torture.
+1. The answer to most of these will look similar. They will typically involve:
+    * declaring a variable to keep track of a final result
+    * writing a for loop to consistently modify the result
+    * returning the result
+    
+2.  If you struggle for more than 5 minutes, **ask for help!** This is an exercise in critical thinking, not torture.
 
 ## Submission ##
 
-Push your code into your GitLab repository and use the GitLab Pages feature to allow your site to be viewed directly. Please submit the published gitlab pages url below.
+Push your code into your GitLab repository and use the GitLab Pages feature to allow your site to be viewed directly. You will submit your Gitlab Project ID # in Canvas, located right below your project name. (See Below) You can copy/paste it.
+![](project_id.png)
