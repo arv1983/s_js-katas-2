@@ -45,7 +45,7 @@ If we had called *power*(3, 4), we'd want to multiply 3 by itself 4 times:
 
 See [this](https://simple.wikipedia.org/wiki/Exponentiation) Wikipedia article for more details on exponentiation.
 
-# Factorial
+# Factorial (2 points)
 
 Write a function named "factorial" that takes a single argument and returns the factorial of that argument .
 
