@@ -20,6 +20,16 @@ For this assessment, you will have access to testing tools as you work.  To test
 3. If you already have the kenzie testing npm package installed, skip this step.  Again from your terminal, run the command `npm install --global git+https://github.com/jragard/kenzie-testing`
 4. You can test the functions in your katas2.js file by navigating to the katas2 directory that holds your file.  When you are in the same directory as your `katas2.js` file, run the terminal command `kenzie-test katas2`.  You will receive instant feedback in your terminal.  You can run these tests repeatedly as you complete katas to verify that your solutions are correct.
 
+# For Graders #
+
+For this assessment, students will submit their Gitlab Project ID #.  To grade:
+
+1.  If you haven't already, run `npm install --global git+https://github.com/jragard/kenzie-testing` to install the testing package.
+2.  Run `kenzie-test katas2 -g <Project ID>`  The results will be displayed in your terminal.
+
+
+## Katas
+
 # Add (1 point)
 
 Write a function named "add" that takes two arguments and returns their sum.
