@@ -92,6 +92,6 @@ The number in brackets is the 8th fibonacci number.
 
 ### Submission ###
 
-Push your code into your GitLab repository and use the GitLab Pages feature to allow your site to be viewed directly. In Canvas, please add KA_SE5 as a member on your project with "Reporter" permission, and submit your gitlab pages url, **with your Project ID number included as a comment on your submission**.  Your Project ID number is located directly under your project name (see below).
+Push your code into your GitLab repository. In Canvas, **please submit your Gitlab Project url (ex: https://gitlab.com/jragard/katas2) AND your Project ID number**, which is located directly under your project name (see below) and as always, add KA_SE5 as a member on your project with "Reporter" permission.
 
 ![](project_id.png)
