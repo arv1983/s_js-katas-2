@@ -85,9 +85,8 @@ The number in brackets is the 8th fibonacci number.
     
 2.  If you struggle for more than 5 minutes, **ask for help!** This is an exercise in critical thinking, not torture.
 
-## Submission ##
+### Submission ###
 
-Push your code into your GitLab repository and use the GitLab Pages feature to allow your site to be viewed directly. Please submit your Gitlab Pages url in Canvas, **along with your Project ID # as a comment on your submission, located right below your project name. (See Below)** You can copy/paste it.  As always, your Gitlab project must be shared with the KA_SE5 account with "Reporter" as role permission.
-
+Push your code into your GitLab repository and use the GitLab Pages feature to allow your site to be viewed directly. In Canvas, please add KA_SE5 as a member on your project with "Reporter" permission, and submit your gitlab pages url, **with your Project ID number included as a comment on your submission**.  Your Project ID number is located directly under your project name (see below).
 
 ![](project_id.png)
