@@ -4,8 +4,8 @@
 
 A [kata](https://en.wikipedia.org/wiki/Kata_(programming)) is an individual exercise where you practice a programming skill through repetition. Today you will practice using JavaScript loops and functions. The functions start out trivial and ramp up in difficulty. The main goals of these katas are:
 
-     * get you used to writing and calling functions that take arguments and return results
-     * get you used to breaking down a problem into the various parts of a for loop
++ get you used to writing and calling functions that take arguments and return results
++ get you used to breaking down a problem into the various parts of a for loop
 
 You will use the [return](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/return) keyword for the output of your function. Unlike other katas we've done up until now, most of these build on each other, which means that **you'll need to complete them in order.**
 
