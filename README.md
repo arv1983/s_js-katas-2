@@ -78,4 +78,6 @@ The number in brackets is the 8th fibonacci number.
 
 ### Submission ###
 
-Push your code into your GitLab repository. In Canvas, **please submit your Gitlab Project url (ex: https://gitlab.com/username/katas2)** and in GitLab, add KA_Grading as a member on your project with "Reporter" permission.
+Push your code into your GitLab repository and deploy it via GitLab pages. In Canvas, **please submit your Gitlab 
+Pages url (ex: https://username.gitlab.io/js-katas-02/)** and in GitLab add KA_grading
+as a member on your project with "Reporter" permission.
