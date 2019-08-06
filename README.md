@@ -51,7 +51,7 @@ See [this](https://simple.wikipedia.org/wiki/Exponentiation) Wikipedia article f
 
 Write a function named "factorial" that takes a single argument and returns the factorial of that argument .
 
-You **may not** use built-in arithmetic operators or functions. Instead, use functions you wrote in earlier katas to write this function (like the `*` built-in operator for multiplication).
+You **may not** use built-in arithmetic operators (like the `*` built-in operator for multiplication) or functions. Instead, use functions you wrote in earlier katas to write this function.
 
 For example, calling *factorial*(4) should return a result of 24.
 
