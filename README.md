@@ -55,17 +55,7 @@ You **may not** use built-in arithmetic operators (like the `*` built-in operato
 
 For example, calling *factorial*(4) should return a result of 24.
 
-# Fibonacci (3 points)
 
-Write a function named "fibonacci" that takes an argument n and returns the nth [Fibonacci number](https://simple.wikipedia.org/wiki/Fibonacci_number). 
-
-You **may not** use built-in arithmetic operators or functions. Instead, use functions you wrote in earlier katas to write this function (like the `*` built-in operator for multiplication).
-
-For example, calling *fibonacci*(8) should return a result of 13.
-
-0  1  1  2  3  5  8  [13]  21
-
-The number in brackets is the 8th fibonacci number.
 
 # Hints
 
