@@ -66,9 +66,9 @@ For example, calling *factorial*(4) should return a result of 24.
     
 2.  If you struggle for more than 5 minutes, **ask for help!** This is an exercise in critical thinking, not torture.
 
-# Bonus (3 points)
 
-# Fibonacci (3 points)
+
+# Bonus Fibonacci (3 points)
 
 Write a function named "fibonacci" that takes an argument n and returns the nth [Fibonacci number](https://simple.wikipedia.org/wiki/Fibonacci_number). 
 
