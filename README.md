@@ -66,6 +66,21 @@ For example, calling *factorial*(4) should return a result of 24.
     
 2.  If you struggle for more than 5 minutes, **ask for help!** This is an exercise in critical thinking, not torture.
 
+# Bonus (3 points)
+
+# Fibonacci (3 points)
+
+Write a function named "fibonacci" that takes an argument n and returns the nth [Fibonacci number](https://simple.wikipedia.org/wiki/Fibonacci_number). 
+
+You **may not** use built-in arithmetic operators or functions. Instead, use functions you wrote in earlier katas to write this function (like the `*` built-in operator for multiplication).
+
+For example, calling *fibonacci*(8) should return a result of 13.
+
+0  1  1  2  3  5  8  [13]  21
+
+The number in brackets is the 8th fibonacci number.
+
+
 ### Submission ###
 
 Push your code into your GitLab repository and deploy it via GitLab pages. In Canvas, **please submit your Gitlab 
