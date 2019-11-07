@@ -35,7 +35,7 @@ For example, calling *multiply*(6, 8) should return a result of 48.
 
 Write a function named "power" that takes two arguments (x and n) and returns the the result of raising x to the nth power.
 
-You **may not** use built-in arithmetic operators or functions. Instead, use functions you wrote in earlier katas to write this function (like the `*` built-in operator for multiplication, or the `**` operator for power/exponentiation).
+You **may not** use built-in arithmetic operators or functions (like the `*` built-in operator for multiplication, or the `**` operator for power/exponentiation). Instead, use functions you wrote in earlier katas to write this function.
 
 Another word for this is "exponentiation". For example, if we called *power*(2, 8), we return 256 by multiplying 2 by itself 8 times:
 
