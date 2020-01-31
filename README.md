@@ -1,88 +1,78 @@
-# Assessment: JavaScript Katas 2 #
+# Avaliação: Katas de JavaScript 2 #
 
-# Overview 
+# Visão Geral
 
-A [kata](https://en.wikipedia.org/wiki/Kata_(programming)) is an individual exercise where you practice a programming skill through repetition. Today you will practice using JavaScript loops and functions. The functions start out trivial and ramp up in difficulty. The main goals of these katas are:
+Um [kata](https://en.wikipedia.org/wiki/Kata_(programming)) é um exercício individual onde você pratica uma habilidade de programação repetidamente. Hoje você irá praticar o uso de loops e funções JavaScript. Começaremos com funções fáceis e subiremos o grau de dificuldade gradativamente. Os objetivos principais destes katas são:
 
-+ get you used to writing and calling functions that take arguments and return results
-+ get you used to breaking down a problem into the various parts of a for loop
++   acostumá-lo a escrever e chamar funções que recebam argumentos e retornam resultados
++   acostumá-lo a decompor um problema nas diversas partes de um loop for.
 
-You will use the [return](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/return) keyword for the output of your function. Unlike other katas we've done up until now, most of these build on each other, which means that **you'll need to complete them in order.**
+Usaremos a palavra-chave [return](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/return) para obter o resultado da função. Diferentemente de outros katas que fizemos até agora, a maioria destes vai sendo construído uns em cima dos outros, o que significa que **você precisará completá-los em ordem**.
 
-When giving constraints for the implementation, note that anything I say about functions also applies to methods (we'll talk about the difference soon).
+Ao falar das restrições de implementação, qualquer coisa que eu disser sobre funções também vale para métodos (falaremos sobre a diferença entre eles em breve).
 
 ## Katas
 
-# Add (1 point)
+# Soma (1 ponto)
 
-Write a function named "add" that takes two arguments and returns their sum.
+Escreva uma função chamada "add" que pega dois argumentos e retorna a soma deles.
 
-You may use built-in operators to finish the definition.
+Você pode usar operadores incorporados para finalizar a definição.
 
-For example, calling *add*(2, 4) should return a result of 6.
+Por exemplo, chamar _add_(2, 4) deve retornar um resultado 6.
 
+# Multiplicação (2 pontos)
 
-# Multiply (2 points)
+Escreva uma função chamada "multiply" que pega dois argumentos e retorna seu produto.
 
-Write a function named "multiply" that takes two arguments and returns their product.
+Você **não pode** usar operadores ou funções aritméticas incorporadas (como o operador de multiplicação `*`). Em vez disso, você precisará de um loop for que chama a função "add" criada anteriormente.
 
-You **may not** use built-in arithmetic operators or functions (like the `*` built-in operator for multiplication). Instead, you'll need a for loop which calls the "add" function you wrote earlier.
+Por exemplo, chamar *multiply*(6, 8) deve retornar um resultado 48.
 
-For example, calling *multiply*(6, 8) should return a result of 48.
+# Potência (2 pontos)
 
+Escreva uma função chamada "power" que pega dois argumentos (x e n) e retorna o resultado de x elevado à potência n.
 
-# Power (2 points)
+Você **não pode** usar operadores ou funções aritméticas incorporadas (como o operador de multiplicação `*` ou o operador de potência/expoente `**`). Em vez disso, para escrever esta função, use outras funções que você escreveu em katas anteriores.
 
-Write a function named "power" that takes two arguments (x and n) and returns the the result of raising x to the nth power.
-
-You **may not** use built-in arithmetic operators or functions (like the `*` built-in operator for multiplication, or the `**` operator for power/exponentiation). Instead, use functions you wrote in earlier katas to write this function.
-
-Another word for this is "exponentiation". For example, if we called *power*(2, 8), we return 256 by multiplying 2 by itself 8 times:
+Outra palavra usada para potência é "exponenciação". Por exemplo, se nós chamarmos *power*(2, 8), retornaremos 256 ao multiplicar 2 por ele mesmo 8 vezes.
 
     2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 = 256
 
-If we had called *power*(3, 4), we'd want to multiply 3 by itself 4 times:
+Se tivéssemos chamado *power*(3, 4), teríamos multiplicado 3 por ele mesmo 4 vezes:
 
     3 * 3 * 3 * 3 = 81
 
-See [this](https://simple.wikipedia.org/wiki/Exponentiation) Wikipedia article for more details on exponentiation.
+Veja [este artigo](https://pt.wikipedia.org/wiki/Exponencia%C3%A7%C3%A3o) da Wikipédia para mais detalhes sobre exponenciação.
 
-# Factorial (2 points)
+# Fatorial (2 pontos)
 
-Write a function named "factorial" that takes a single argument and returns the factorial of that argument .
+Escreva uma função chamada "factorial" que pega um único argumento e retorna o fatorial dele.
 
-You **may not** use built-in arithmetic operators (like the `*` built-in operator for multiplication) or functions. Instead, use functions you wrote in earlier katas to write this function.
+Você **não pode** usar operadores ou funções aritméticas incorporadas (como o operador de multiplicação `*`). Em vez disso, para escrever esta função, use outras funções que você escreveu em katas anteriores.
 
-For example, calling *factorial*(4) should return a result of 24.
+Por exemplo, chamar *factorial*(4) deve retornar um resultado 24.
 
+# Dicas
 
+1.  A resposta para a maioria desses katas será similar. Ela envolverá tipicamente:
+    *   a declaração de uma variável para manter o registro de um resultado final.
+    *   a escrita de um loop for para modificar o resultado consistentemente.
+    *   o retorno do resultado
+2.  Se você demorar mais de 5 minutos, **peça ajuda**! Este é um exercício de raciocínio crítico, e não de tortura.
 
-# Hints
+# Bônus: Fibonacci (3 pontos)
 
-1. The answer to most of these will look similar. They will typically involve:
-    * declaring a variable to keep track of a final result
-    * writing a for loop to consistently modify the result
-    * returning the result
-    
-2.  If you struggle for more than 5 minutes, **ask for help!** This is an exercise in critical thinking, not torture.
+Escreva uma função chamada "fibonacci" que pega um argumento n e retorna o enésimo [número Fibonacci](https://pt.wikipedia.org/wiki/Sequ%C3%AAncia_de_Fibonacci).
 
+Você **não pode usar** operadores ou funções aritméticas incorporadas. Em vez disso, para escrever esta função, use outras funções que você escreveu em katas anteriores (como o operador de multiplicação incorporado `*`).
 
+Por exemplo, chamar *fibonacci*(8) deve retornar o resultado 13.
 
-# Bonus: Fibonacci (3 points)
+    0 1 1 2 3 5 8 [13] 21
 
-Write a function named "fibonacci" that takes an argument n and returns the nth [Fibonacci number](https://simple.wikipedia.org/wiki/Fibonacci_number). 
+O número entre colchetes é o oitavo número fibonacci.
 
-You **may not** use built-in arithmetic operators or functions. Instead, use functions you wrote in earlier katas to write this function (like the `*` built-in operator for multiplication).
+# Envio
 
-For example, calling *fibonacci*(8) should return a result of 13.
-
-0  1  1  2  3  5  8  [13]  21
-
-The number in brackets is the 8th fibonacci number.
-
-
-### Submission ###
-
-Push your code into your GitLab repository and deploy it via GitLab pages. In Canvas, **please submit your Gitlab 
-Pages url (ex: https://username.gitlab.io/js-katas-02/)** and in GitLab add KA_grading
-as a member on your project with "Reporter" permission.
+Faça o push do código para o seu repositório GitLab e implemente-o via GitLab pages. No Canvas, **por favor, envie sua url do Gitlab Pages (ex: https://nomedeusuário.gitlab.io/js-katas-02/)** e no GitLab, adicione KA_grading como membro do seu projeto com a permissão "Reporter".
