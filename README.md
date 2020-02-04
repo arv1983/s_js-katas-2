@@ -75,4 +75,4 @@ O número entre colchetes é o oitavo número fibonacci.
 
 # Envio
 
-Faça o push do código para o seu repositório GitLab e implemente-o via GitLab pages. No Canvas, **por favor, envie sua url do Gitlab Pages (ex: https://nomedeusuário.gitlab.io/js-katas-02/)** e no GitLab, adicione KA_grading como membro do seu projeto com a permissão "Reporter".
+Faça o push do código para o seu repositório GitLab e implemente-o via GitLab pages. No Canvas, **por favor, envie sua url do Gitlab Pages (ex: https://nomedeusuário.gitlab.io/js-katas-02/)** e no GitLab, adicione o grupo `ka-br-correcoes` como membro do seu projeto com a permissão "Reporter".
