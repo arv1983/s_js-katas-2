@@ -1,6 +1,8 @@
 # Entrega: Katas de JavaScript 2 #
 
-# Visão Geral
+## Visão Geral
+
+Para começar, acesse [este link](https://gitlab.com/kenzie-academy-brasil/se/fe/getting-started-with-javascript/s_js-katas-2), faça o fork e clone o repo.
 
 Um [kata](https://en.wikipedia.org/wiki/Kata_(programming)) é um exercício individual onde você pratica uma habilidade de programação repetidamente. Hoje você irá praticar o uso de loops e funções JavaScript. Começaremos com funções fáceis e subiremos o grau de dificuldade gradativamente. Os objetivos principais destes katas são:
 
@@ -13,7 +15,7 @@ Ao falar das restrições de implementação, qualquer coisa que eu disser sobre
 
 ## Katas
 
-# Soma (1 ponto)
+### Soma (1 ponto)
 
 Escreva uma função chamada "add" que pega dois argumentos e retorna a soma deles.
 
@@ -21,7 +23,7 @@ Você pode usar operadores incorporados para finalizar a definição.
 
 Por exemplo, chamar _add_(2, 4) deve retornar um resultado 6.
 
-# Multiplicação (2 pontos)
+### Multiplicação (2 pontos)
 
 Escreva uma função chamada "multiply" que pega dois argumentos e retorna seu produto.
 
@@ -29,7 +31,7 @@ Você **não pode** usar operadores ou funções aritméticas incorporadas (como
 
 Por exemplo, chamar *multiply*(6, 8) deve retornar um resultado 48.
 
-# Potência (2 pontos)
+### Potência (2 pontos)
 
 Escreva uma função chamada "power" que pega dois argumentos (x e n) e retorna o resultado de x elevado à potência n.
 
@@ -45,7 +47,7 @@ Se tivéssemos chamado *power*(3, 4), teríamos multiplicado 3 por ele mesmo 4 v
 
 Veja [este artigo](https://pt.wikipedia.org/wiki/Exponencia%C3%A7%C3%A3o) da Wikipédia para mais detalhes sobre exponenciação.
 
-# Fatorial (2 pontos)
+### Fatorial (2 pontos)
 
 Escreva uma função chamada "factorial" que pega um único argumento e retorna o fatorial dele.
 
@@ -53,7 +55,7 @@ Você **não pode** usar operadores ou funções aritméticas incorporadas (como
 
 Por exemplo, chamar *factorial*(4) deve retornar um resultado 24.
 
-# Dicas
+## Dicas
 
 1.  A resposta para a maioria desses katas será similar. Ela envolverá tipicamente:
     *   a declaração de uma variável para manter o registro de um resultado final.
@@ -61,7 +63,7 @@ Por exemplo, chamar *factorial*(4) deve retornar um resultado 24.
     *   o retorno do resultado
 2.  Se você demorar mais de 5 minutos, **peça ajuda**! Este é um exercício de raciocínio crítico, e não de tortura.
 
-# Bônus: Fibonacci (3 pontos)
+## Bônus: Fibonacci (3 pontos)
 
 Escreva uma função chamada "fibonacci" que pega um argumento n e retorna o enésimo [número Fibonacci](https://pt.wikipedia.org/wiki/Sequ%C3%AAncia_de_Fibonacci).
 
@@ -75,4 +77,4 @@ O número entre colchetes é o oitavo número fibonacci.
 
 # Envio
 
-Faça o push do código para o seu repositório GitLab e implemente-o via GitLab pages. No Canvas, **por favor, envie sua url do Gitlab Pages (ex: https://nomedeusuário.gitlab.io/js-katas-02/)** e no GitLab, adicione o grupo `ka-br-correcoes` como membro do seu projeto com a permissão "Reporter".
+Faça o push do código para o seu repositório GitLab e implemente-o via GitLab pages. No Canvas, **por favor, envie sua url do Gitlab Pages (ex: https://nomedeusuario.gitlab.io/js-katas-02/)** e no GitLab, adicione o grupo `ka-br-<sua-turma>-correcoes` como membro do seu projeto com a permissão "Reporter".
